@@ -6,7 +6,7 @@ qu4n-ai is a private-first research and engineering organization focused on buil
 
 ## Focus Areas
 
-- 🤖 AI, ML, LLMs & ASR
+- 🤖 AI, ML & DL
 - 🛠️ Software & developer tools
 - ⚙️ MLOps, infrastructure & deployment
 - 📊 Quantitative research & data analysis
