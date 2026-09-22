@@ -1,0 +1,24 @@
+name: Organization Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check markdown files
+        shell: bash
+        run: |
+          set -e
+          files=$(find . -type f -name '*.md' -not -path './.git/*')
+          test -n "$files"
+          echo "Checked markdown files:"
+          echo "$files"
