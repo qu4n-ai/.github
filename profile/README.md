@@ -1,16 +1,6 @@
 # qu4n-ai
 
-**AI · Software Engineering · Quantitative Research**
-
 qu4n-ai is a private-first research and engineering organization focused on building practical systems and exploring emerging technology.
-
-## Focus Areas
-
-- 🤖 AI, ML & DL
-- 🛠️ Software & developer tools
-- ⚙️ MLOps, infrastructure & deployment
-- 📊 Quantitative research & data analysis
-- 🧪 Experiments, evaluation & reproducibility
 
 ## Approach
 
